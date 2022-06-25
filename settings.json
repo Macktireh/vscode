@@ -1,0 +1,81 @@
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.xlsx": "default",
+        "*.svg": "default"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "editor.renderControlCharacters": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5444,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "Postgres",
+            "database": "covid",
+            "username": "enterprisedb"
+        }
+    ],
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ],
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "git.autofetch": true,
+    "JSON-zain.json.autorefresh": true,
+    "html.format.indentHandlebars": true,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.tabSize": 2
+    },
+    "editor.hover.enabled": false,
+    "explorer.compactFolders": false,
+    "diffEditor.wordWrap": "on",
+    "html.format.wrapAttributesIndentSize": 2,
+    "workbench.colorTheme": "Dracula Soft",
+    "thunder-client.codeSnippetLanguage": "python-requests",
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabSize": 4,
+
+    "[json]": {
+      "editor.tabSize": 2
+    },
+    "[css]": {
+      "editor.tabSize": 2
+    },
+    "[sass]": {
+      "editor.tabSize": 2
+    },
+    "[scss]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "thunder-client.htmlView": "Preview",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.color": "#f1f1f1",
+    "material-icon-theme.activeIconPack": "react_redux",
+    "editor.inlineSuggest.enabled": true
+}
