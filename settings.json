@@ -1,81 +1,87 @@
 {
-    "liveServer.settings.CustomBrowser": "chrome",
-    "tabnine.experimentalAutoImports": true,
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook",
-        "*.xlsx": "default",
-        "*.svg": "default"
-    },
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "right"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
-    },
-    "editor.renderControlCharacters": true,
-    "sqltools.connections": [
-        {
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5444,
-            "askForPassword": true,
-            "driver": "PostgreSQL",
-            "name": "Postgres",
-            "database": "covid",
-            "username": "enterprisedb"
-        }
-    ],
-    "mssql.connections": [
-        {
-            "server": "{{put-server-name-here}}",
-            "database": "{{put-database-name-here}}",
-            "user": "{{put-username-here}}",
-            "password": "{{put-password-here}}"
-        }
-    ],
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "git.autofetch": true,
-    "JSON-zain.json.autorefresh": true,
-    "html.format.indentHandlebars": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.xlsx": "default",
+    "*.svg": "default"
+  },
+  "workbench.tree.indent": 30,
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+  "editor.renderControlCharacters": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "git.autofetch": true,
+  "html.format.indentHandlebars": true,
+  "editor.formatOnSave": true,
+  "editor.hover.enabled": true,
+  "explorer.compactFolders": false,
+  "diffEditor.wordWrap": "on",
+  "html.format.wrapAttributesIndentSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabSize": 4,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDelete": false,
+  "material-icon-theme.folders.color": "#FFDBAC",
+  "material-icon-theme.activeIconPack": "react_redux",
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.autoImportCompletions": true,
+  "files.autoSave": "afterDelay",
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.completeFunctionParens": false,
+  "python.analysis.addImport.exactMatchOnly": true,
+  "codeium.detectProxy": false,
+  "editor.inlineSuggest.showToolbar": "always",
+  "grunt.autoDetect": "on",
+  "jake.autoDetect": "on",
+  "gulp.autoDetect": "on",
+  "ruff.args": ["[\"--ine-length=110\"]"],
+  "flake8.args": ["--max-line-length=120", "--ignore=E402,F841,F401,E302,E305"],
+  "database-client.telemetry.usesOnlineServices": false,
+  "window.zoomLevel": -1,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "OM Theme (Night Owl Italic)",
+  "files.associations": {
+    ".flaskenv": "bat"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.tabSize": 2
+  },
+  "[python]": {
     "editor.formatOnSave": true,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features",
-        "editor.tabSize": 2
-    },
-    "editor.hover.enabled": false,
-    "explorer.compactFolders": false,
-    "diffEditor.wordWrap": "on",
-    "html.format.wrapAttributesIndentSize": 2,
-    "workbench.colorTheme": "Dracula Soft",
-    "thunder-client.codeSnippetLanguage": "python-requests",
-    "emmet.includeLanguages": { "javascript": "javascriptreact" },
-    "emmet.triggerExpansionOnTab": true,
-    "editor.tabSize": 4,
-
-    "[json]": {
-      "editor.tabSize": 2
-    },
-    "[css]": {
-      "editor.tabSize": 2
-    },
-    "[sass]": {
-      "editor.tabSize": 2
-    },
-    "[scss]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[javascript, javascriptreact]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "thunder-client.htmlView": "Preview",
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.color": "#f1f1f1",
-    "material-icon-theme.activeIconPack": "react_redux",
-    "editor.inlineSuggest.enabled": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "editor.stickyScroll.enabled": false,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[json, jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css, scss, sass]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
